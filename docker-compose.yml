@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  miner:
+    build: .
+    container_name: xmrig-miner
+    restart: always
+    cpu_period: 100000   # Período padrão de 100ms (100000 microssegundos)
+    cpu_quota: 960000    # 60% de 16 vCPUs (960000 microssegundos)
