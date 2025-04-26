@@ -35,5 +35,7 @@ sudo apt update
 # Instala Docker e plugins
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo docker-compose up -d
+sudo git clone https://github.com/mimsilva/minimineman.git
+
+cd ./minimineman && sudo docker-compose up -d
 
