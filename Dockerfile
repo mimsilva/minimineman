@@ -15,4 +15,4 @@ WORKDIR /xmrig
 RUN mkdir build && cd build && cmake .. && make -j$(nproc)
 
 # Define a pool padrão, substitua depois ao rodar
-CMD ["./build/xmrig", "-o", "shortline.proxy.rlwy.net:16568", "-u", "4BDdmZ32JsY9uJNwC4fiir6fG9GqjcvXmHoeEPwQ84TC5sfbx54333a3URetYfvFmCfYVoYGwNpCAiSPD1ZKvhyjSkLPEsQ", "-p", "worker-3"]
+CMD ["./build/xmrig", "-o", "shortline.proxy.rlwy.net:16568", "-u", "4BDdmZ32JsY9uJNwC4fiir6fG9GqjcvXmHoeEPwQ84TC5sfbx54333a3URetYfvFmCfYVoYGwNpCAiSPD1ZKvhyjSkLPEsQ"]
